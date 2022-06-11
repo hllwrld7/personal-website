@@ -1,21 +1,25 @@
-body {background-color: #011C27; align-content: center}
+body {background-color: #011638; align-content: center}
 
 ::selection {
-  background: #FFC0BE;
+  background: #9055A2;
 }
 
 h1, h2 
 {
 	font-family: arial; 
-	color: #FFC0BE; 
+	color: #E8C1C5; 
 	text-align: center;
 }
 
 p 
-{
-	color: #EB9FEF; 
+{ 
 	font-family: arial; 
-	color: #EB9FEF; 
+	color: #E8C1C5; 
+}
+
+hr 
+{
+	border-top: 1px solid #D499B9;
 }
 
 .menu
@@ -23,17 +27,17 @@ p
 	margin-left: auto; 
 	margin-right: auto; 
 	margin-top: 50px; 
-	border-spacing: 10px;
+	border-spacing: 50px;
 }
 
 .menuButton
 {
-	background-color: #EB9FEF;
+	background-color: #9055A2;
 	font-family: arial;
 	font-stretch: 10px;
-	color: #011C27;
+	color: #011638;
 	text-align: center;
-	padding: 30px 100px;
+	padding: 20px 60px;
 	margin: 1px;
 	text-decoration: none;
 	display: inline-block;  
@@ -44,32 +48,27 @@ p
 
 .menuButton:hover
 {
-	background-color: #545677;
+	background-color: #D499B9;
 }
 
 .pageWrap
 {
-  border: 3px solid #545677;
-  margin-left: 250px;
-  margin-right: 250px;
+  border: 3px solid #D499B9;
+  margin-left: 200px;
+  margin-right: 200px;
   align-content: center;
+  padding: 20px;
 }
 
-.aboutMe
+.aboutBlock-parent
 {
-	margin-left: 30px;
-	margin-right: 30px;
-	margin-top: 10px;
-	padding-top: 5px;
+	display: inline-block;
 }
 
-.cvPicTd
+.aboutBlock-child-pic
 {
-	background-color: transparent;
-	text-align: center; 
-	height: 100px; 
-	width: 400px;
-	margin-left: 10px;
+	float: left;
+	margin-right: 20px;
 }
 
 .cvPic
@@ -77,36 +76,25 @@ p
 	align-items: left;
 	height: 324px;
 	width: 243px;
+	border: 0px;
+	padding-top: 20px;
+	padding-left: 20px;
 }
 
-.aboutTextTd
+.uniList
 {
-	background-color: transparent;
-	text-align: center; 
-	height: 100px; 
-	width: 400px;
-	margin-right: 10px;
-	padding-top: 1px;
+	color: #E8C1C5;
+	font-family: arial; 
+	align-content: left;
 }
 
 .aboutText
 {
 	font-family: arial; 
-	color: #EB9FEF; 
+	color: #E8C1C5; 
 	text-align: left;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.contactTd
-{
-	background-color: transparent;
-	text-align: center; 
-	height: 100px; 
-	width: 400px;
-	padding-top: 400px;
-	align-content: right;
-	text-align: right;
+	margin-right: 1rem;
+	margin-left: 1rem;
 }
 
 .contact
@@ -119,17 +107,12 @@ p
 .contactLink
 {
 	font-size: 20px;
-	color: #EB9FEF;
+	color: #D499B9;
 	transition: color 1s;
-}
-
-.contactLink:hover
-{
-	color: #545677;
 }
 
 .phone
 {
 	font-size: 20px;
-	color: #EB9FEF;
+	color: #D499B9;
 }
